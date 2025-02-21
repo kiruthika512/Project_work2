@@ -1,59 +1,44 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## Phishing Website Detection Using Machine Learning
+It identifies phishing websites by analyzing their URL structure, content, and visual design, addressing advanced techniques like obfuscated URLs, malicious scripts, and visual mimicry.
 
-## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+Phishing attacks mimic legitimate websites to steal sensitive information, posing a significant cybersecurity threat. Traditional methods like blacklists and rule-based systems fail to detect evolving phishing techniques, such as obfuscated URLs, malicious content, and visual mimicry. The purpose of this project is to develop a robust, multi-modal phishing website detection system using machine learning to enhance user safety and security in the digital space. It identifies phishing websites by analyzing their URL structure, content, and visual design, addressing advanced techniques like obfuscated URLs, malicious scripts, and visual mimicry.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+High Detection Accuracy
+Real-Time Detection of Phishing websites
+Cost Efficiency
+Enhanced Cybersecurity
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+*Operating System: Requires a 64-bit OS (Windows 10, Ubuntu 20.04, or macOS) for compatibility with machine learning libraries.
+*Development Environment: Python 3.7 or later is necessary for implementing phishing detection models.
+*Machine Learning Libraries: Scikit-learn is used for training classifiers like Random Forest, Logistic Regression, SVM, and Gradient Boosting.
+*Feature Extraction Libraries: BeautifulSoup for parsing HTML content and extracting phishing indicators.
+*Data Normalization & Balancing: MinMaxScaler for feature scaling and SMOTE for handling class imbalances.
+*Model Persistence: Joblib is used to save and load trained machine learning models.
+*Automation & Screenshot Capture: Pyppeteer for capturing website screenshots and visual analysis.
+*Version Control: Git is recommended for collaborative development and project version management.
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
-
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![Architecture](https://github.com/user-attachments/assets/b7c45f38-2c5b-4d48-96b7-ed0e79be27b9)
 
 
 ## Output
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - Model Evaluation and Accuracy.
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+![Output 1](https://github.com/user-attachments/assets/1c7defd9-d6bb-409c-a4d6-0affeafe2760)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+#### Output2 -  Final Output
+![output 2](https://github.com/user-attachments/assets/f924b211-bc4b-4487-b039-dc60518d4afd)
 
+
+Detection Accuracy: 96.8% (Random Forest Classifier)
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
-
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+The proposed system effectively detects phishing websites by analyzing URL structures for anomalies, evaluating website content using Machine learning models to identify malicious patterns, and utilizing Pyppeteer for capturing website screenshots and visual analysis. The use of ensemble classification ensures that predictions from all components are combined to improve accuracy and Use the trained ML model to classify the website as "Phishing" or "Legitimate."
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
-
-
-
-
+U. Zara, K. Ayyub, H. Ullah Khan, A. Daud, T. Alsahfi and S. Gulzar Ahmad, "Phishing Website Detection Using Deep Learning Models," in IEEE Access, vol. 12, pp. 167072-167087, 2024, doi: 10.1109/ACCESS.2024.3486462.
+L. R. Kalabarige, R. S. Rao, A. Abraham and L. A. Gabralla, "Multilayer Stacked Ensemble Learning Model to Detect Phishing Websites," in IEEE Access, vol. 10, pp. 79543-79552, 2022, doi: 10.1109/ACCESS.2022.3194672.
